@@ -6,7 +6,84 @@
 </head>
 <body>
     <form>
-        <input type="search" name="nome" placeholder="Nome">
+        <table border =1>
+            <Caption><h4>Contato</h4></Caption>
+            <thead>
+                <th>
+                    Info
+                </th>
+                <th>
+                    Dados
+                </th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome: </td>
+                    <td>
+                        <input type="search" name="nome" placeholder="Nome"></td>
+                </tr>
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                        <input type="email" name="email" placeholder="E-mail"></td>
+                </tr>
+                <tr>
+                    <td>Telefone: </td>
+                    <td>
+                        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"></td>
+                </tr>
+                <tr>
+                    <td>Idade: </td>
+                    <td>
+                        <input type="number" name="idade" placeholder="Idade"></td>
+                </tr>
+                <tr>
+                    <td>linkedIn: </td>
+                    <td>
+                        <input type="url" name="linkedin" placeholder="linkedIn"></td>
+                </tr>
+                <table border="1">
+                    <caption><h4>dia-da-semana</h4></caption>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=2> segunda-feira
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=3> terça-feira
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=4> quarta-feira
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=5> quinta-feira
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=6> sexta-feira
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=7> sabado
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="radio" name="dia-da-semana" value=1> domingo
+                        </td>
+                    </tr>
+                </table>
+            </tbody>
+        </table>
+        <button type="button">Enviar</button>
     </form>
+    
 </body>
 </html>
