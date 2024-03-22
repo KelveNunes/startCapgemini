@@ -1,0 +1,105 @@
+.cabecalho{
+background-color: #F9E0AE;
+padding: 20px;
+align-items: center;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 20px;
+left: -10px;
+right: -10px;
+width:100%;
+border: none;
+}
+
+.navegacao-principal{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
+    
+}
+.botao-inincio{
+    background-color: #F9E0AE;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+
+}
+
+.botao-inincio:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.botao-sobre{
+    background-color: #F9E0AE;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+}
+
+.botao-sobre:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.botao-contato{
+    background-color: #F9E0AE;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+}
+
+.botao-contato:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.nome-pagina{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+a{
+    color: rgba(0, 0, 0, 0.797);
+    text-decoration: none;
+    font-family: poppins;
+    font-style:unset;
+    
+}
