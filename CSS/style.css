@@ -1,29 +1,105 @@
-table{
-    width: 100%;
-    border-collapse: collapse;
+.cabecalho{
+background-color: #F9E0AE;
+padding: 20px;
+align-items: center;
+display: flex;
+justify-content: space-around;
+position: relative;
+top: 20px;
+left: -10px;
+right: -10px;
+width:100%;
+border: none;
 }
-th, td{
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-}
-th{
-    background-color: #f2f2f2;
-}
-caption{
-    font-size: 1.5em;
-    margin: 10px;
-}
-button{
-    margin: 10px;
-    padding: 10px;
-    background-color: #f2f2f2;
-    border-radius: 5px;
+
+.navegacao-principal{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    
     
 }
-.cabecalho-do-form{
-    margin: 10px;
+.botao-inincio{
+    background-color: #F9E0AE;
+    color: #fff;
     padding: 10px;
-    background-color: #f2f2f2;
+    border: none;
     border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+
+}
+
+.botao-inincio:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.botao-sobre{
+    background-color: #F9E0AE;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+}
+
+.botao-sobre:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.botao-contato{
+    background-color: #F9E0AE;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: larger;
+    text-underline-offset: 10px;
+
+}
+
+.botao-contato:hover{
+    background-color: #fff;
+    color: #b7af3f;
+    transition: 0.5s;
+    
+}
+.nome-pagina{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+a{
+    color: rgba(0, 0, 0, 0.797);
+    text-decoration: none;
+    font-family: poppins;
+    font-style:unset;
+    
 }
