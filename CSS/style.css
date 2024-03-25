@@ -1,15 +1,16 @@
+.body{
+    width:100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
 .cabecalho{
-background-color: #F9E0AE;
-padding: 20px;
+background-color: #F9E0AE;  
 align-items: center;
 display: flex;
 justify-content: space-around;
-position: relative;
-top: 20px;
-left: -10px;
-right: -10px;
 width:100%;
-border: none;
+margin-top: 2%;
 }
 
 .navegacao-principal{
@@ -91,7 +92,7 @@ border: none;
     
 }
 .nome-pagina{
-    color: #fff;
+    color: #000000;
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
@@ -102,4 +103,53 @@ a{
     font-family: poppins;
     font-style:unset;
     
+}
+.secao-principal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    width: 90%;
+ 
+}
+
+.titulo-secao-principal{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.conteudo-secao-principal{
+    font-size: 16px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%;
+    justify-content: left;
+    text-align: justify;
+    border: none;
+    padding: 10px;
+
+
+}
+.imagem-secao-principal{
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-principal{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 8%;
+    width: 100%;
+    padding-left: none;
+    padding-right: none;
 }

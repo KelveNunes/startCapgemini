@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br"> 
 <head>
+    <script src="../libs/jquery-3.7.1.min.js"></script>
+    <script src="../JAVASCRIPT/contato.js"></script>
     <meta charset="UTF-8">
     <title>contato</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
 <body>
-    <form>
+    <form id="form-contato">
         <table>
             <Caption><h4>Contato</h4></Caption>
             <thead>
@@ -17,27 +19,27 @@
             <tbody>
                 <tr>
                     <td>
-                        <input type="search" name="nome" placeholder="Nome"></td>
+                        <input type="text" name="nome" placeholder="Nome" id="nome"></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="email" name="email" placeholder="E-mail"></td>
+                        <input type="email" name="email" placeholder="E-mail" id="email"></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx"></td>
+                        <input type="tel" name="tel" placeholder="(xx) xxxxx-xxxx" id="tel"></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="number" name="idade" placeholder="Idade"></td>
+                        <input type="number" name="idade" placeholder="Idade" id="idade"></td>
                 </tr>
                 <tr>
                     <td>
-                        <input type="url" name="linkedin" placeholder="linkedIn"></td>
+                        <input type="url" name="linkedin" placeholder="linkedIn" id="linkedIn"></td>
                 </tr>
                 <tfoot>
                     <th>
-                        <button>
+                        <button class="button">
                             Enviar
                         </button>
                     </th>
