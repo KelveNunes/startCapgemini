@@ -1,0 +1,37 @@
+.lista-produtos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.lista-produtos li{
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.lista-produtos strong{
+    margin: 10px 0;
+    display: block;
+
+}
+
+.lista-produtos span{
+    display: inline-block;
+    margin: 10px 0;
+    background-color: green;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.lista-produtos .esgotado{
+    background-color: #ccc;
+    
+}
