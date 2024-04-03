@@ -8,6 +8,8 @@ import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.componen
 import { PaginaParametroComponent } from './pagina-parametro/pagina-parametro.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
 import { PaginaProtegidaComponent } from './pagina-protegida/pagina-protegida.component';
+import { LoginComponent } from './login/login.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,11 +18,13 @@ import { PaginaProtegidaComponent } from './pagina-protegida/pagina-protegida.co
     SegundaPaginaComponent,
     PaginaParametroComponent,
     PaginaNaoEncontradaComponent,
-    PaginaProtegidaComponent
+    PaginaProtegidaComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
