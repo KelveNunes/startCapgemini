@@ -7,6 +7,7 @@ import { PrimeiraPaginaComponent } from './primeira-pagina/primeira-pagina.compo
 import { SegundaPaginaComponent } from './segunda-pagina/segunda-pagina.component';
 import { PaginaParametroComponent } from './pagina-parametro/pagina-parametro.component';
 import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao-encontrada.component';
+import { PaginaProtegidaComponent } from './pagina-protegida/pagina-protegida.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PaginaNaoEncontradaComponent } from './pagina-nao-encontrada/pagina-nao
     PrimeiraPaginaComponent,
     SegundaPaginaComponent,
     PaginaParametroComponent,
-    PaginaNaoEncontradaComponent
+    PaginaNaoEncontradaComponent,
+    PaginaProtegidaComponent
   ],
   imports: [
     BrowserModule,
