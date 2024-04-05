@@ -5,10 +5,9 @@ import { AppComponent } from './app.component';
 import { ContatoComponent } from './perfil/contato/contato.component';
 import { ExperienciaComponent } from './perfil/experiencia/experiencia.component';
 
-
 @NgModule({
   declarations: [
-    AppComponent, 
+    AppComponent,
     ContatoComponent,
     ExperienciaComponent
   ],

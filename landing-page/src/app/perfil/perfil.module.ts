@@ -3,8 +3,6 @@ import { CommonModule } from '@angular/common';
 import { ContatoComponent } from './contato/contato.component';
 import { ExperienciaComponent } from './experiencia/experiencia.component';
 
-
-
 @NgModule({
   declarations: [
     ContatoComponent,
